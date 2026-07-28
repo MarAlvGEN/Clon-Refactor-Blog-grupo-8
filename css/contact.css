@@ -1,0 +1,75 @@
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("https://media.revistaad.es/photos/648feb2da0cdd7c8ec04210f/16:9/w_2560%2Cc_limit/r-architecture-rOk4VSMS3Ck-unsplash.jpg")
+            center/cover no-repeat fixed;
+    min-height: 100vh;
+    font-family:
+        system-ui,
+        -apple-system,
+        sans-serif;
+}
+
+.tarjeta {
+    background: #fffdf9;
+    border: 3px solid #1a1a1a;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+}
+
+.titulo {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #1a1a1a;
+}
+
+.label-custom {
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin-bottom: 0.4rem;
+}
+
+.input-custom {
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #1a1a1a;
+    padding: 0.75rem 1rem;
+}
+
+.input-custom:focus {
+    box-shadow: 4px 4px 0 #1a1a1a;
+    border-color: #1a1a1a;
+    outline: none;
+}
+
+.btn-custom {
+    width: 100%;
+    padding: 0.9rem;
+    background: #c6282a;
+    color: #1a1a1a;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 #1a1a1a;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-custom:hover {
+    background: #c6282a;
+    box-shadow: 6px 6px 0 #1a1a1a;
+    transform: translate(-2px, -2px);
+}
+
+.btn-custom:active {
+    box-shadow: 0 0 0 #1a1a1a;
+    transform: translate(4px, 4px);
+}

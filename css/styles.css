@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+#tituloPag {
+    text-align: center;
+    margin: 10px;
+}
+
+header {
+    background: #c62828;
+    color: white;
+    padding: 20px 0;
+
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffd600;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ffd600;
+}
+
+.contact-header {
+    background: #ffd600;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.contact-header h1 {
+    color: #c62828;
+
+    font-size: 48px;
+
+    margin-bottom: 15px;
+}
+
+.contact-header p {
+    font-size: 20px;
+
+    color: #444;
+}
+
+.contact-container {
+    width: 90%;
+
+    margin: 50px auto;
+
+    display: flex;
+
+    gap: 35px;
+}
+
+.contact-info {
+    flex: 1;
+
+    background: white;
+
+    padding: 30px;
+
+    border-left: 8px solid #ffd600;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info h2 {
+    color: #c62828;
+
+    margin-bottom: 20px;
+}
+
+.contact-info li {
+    margin-bottom: 18px;
+
+    list-style: none;
+}
+
+.contact-formulario {
+    flex: 2;
+
+    background: white;
+
+    padding: 30px;
+
+    border-left: 8px solid #c62828;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-formulario h2 {
+    color: #c62828;
+
+    margin-bottom: 25px;
+}
+
+.campo {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.campo label {
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    padding: 12px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #ffd600;
+
+    outline: none;
+}
+
+.btnEnviar {
+    background: #c62828;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 35px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btnEnviar:hover {
+    background: #ffd600;
+
+    color: #c62828;
+
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .contact-header h1 {
+        font-size: 35px;
+    }
+}
+
+/* ESTILOS DEL CONTACTO.HTML */
+
+.navegation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-nave {
+    max-width: 10%;
+}
+
+/* ESTILOS INDEX */
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+main section {
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+main section h3 {
+    color: #c62828;
+    margin-bottom: 15px;
+}
+
+main section p {
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+main section img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+/* Estilos Pagina Quienes Somos */
+.sectionEmpresa {
+    background:
+        linear-gradient(rgba(198, 40, 40, 0.85), rgba(198, 40, 40, 0.85)),
+        url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.sectionEmpresa h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+.tituloQuienes {
+    text-align: center;
+    color: #c62828;
+    font-size: 60px;
+    margin: 40px 0 20px 0;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    border-left: 8px solid #c62828;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta2 {
+    border-left: none;
+    border-right: 8px solid #ffd600;
+}
+
+.imagen-tarjeta {
+    width: 35%;
+    object-fit: cover;
+}
+.contenido {
+    width: 65%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contenido h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contenido p {
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.piePagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    /*text-align: center;*/
+    color: #000000;
+    background-color: #ffd166;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.body-site {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.contac-info {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-left: 8px solid #ffd600;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-title {
+    color: #c62828;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.info-list {
+    padding: 0;
+    margin: 0;
+}
+
+.info-item {
+    margin-bottom: 18px;
+    list-style: none;
+}
+
+.contact-formulario {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-title {
+    color: #c62828;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.form-button {
+    background: #c62828;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.form-button:hover {
+    background: #ffd600;
+    color: #c62828;
+}
+
+.piePagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    /*text-align: center;*/
+    color: #000000;
+    background-color: #ffd166;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer,
+.footer,
+.piePagina {
+    background: #212121;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+
+    position: relative;
+    width: 100%;
+}
+
+footer p,
+.footer p,
+.piePagina p {
+    margin: 8px 0;
+}
+/* FIN - ESTILOS DEL CONTACTO.HTML */

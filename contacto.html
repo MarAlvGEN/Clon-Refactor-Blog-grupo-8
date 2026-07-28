@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Contacto - Blog</title>
+    </head>
+
+    <body class="body-site">
+        <header class="navegation">
+            <nav class="nav-container">
+                <a class="nav-logo-link">
+                    <img class="img-nave" src="logo.png" alt="imgLogo" />
+                </a>
+                <section class="menu" aria-label="Enlaces del sitio">
+                    <a class="menu-link" href="index.html">Inicio</a>
+                    <a class="menu-link" href="quienes_somos.html"
+                        >¿Quienes somos?</a
+                    >
+                    <a class="menu-link" href="contacto.html">Contacto</a>
+                </section>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="contact-header">
+                <h1 class="contact-main-title">Contáctanos</h1>
+                <p class="contact-description">
+                    ¿Tienes dudas o comentarios? Ponte en contacto con nuestro
+                    equipo.
+                </p>
+            </section>
+
+            <div class="contact-container">
+                <section class="contac-info">
+                    <h2 class="info-title">Información de Atención</h2>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <strong class="info-strong">Dirección:</strong> Cl.
+                            Principal #123, Ciudad Ficticia
+                        </li>
+                        <li class="info-item">
+                            <strong class="info-strong">Teléfono:</strong> +57
+                            123 1235678
+                        </li>
+                        <li class="info-item">
+                            <strong class="info-strong"
+                                >Correo electrónico:</strong
+                            >
+                            contacto@ejemplo-ficticio.com
+                        </li>
+                        <li class="info-item">
+                            <strong class="info-strong">Horario:</strong> Lunes
+                            a Viernes de 9:00 a 18:00 hrs.
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="contact-formulario">
+                    <h2 class="form-title">Envíanos un mensaje</h2>
+                    <form class="form-element" action="#">
+                        <div class="form-group">
+                            <label class="form-label" for="nombre"
+                                >Nombre completo:</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Tu nombre"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="email"
+                                >Correo electrónico:</label
+                            >
+                            <input
+                                class="form-input"
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="tu@correo.com"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="asunto"
+                                >Asunto:</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                id="asunto"
+                                name="asunto"
+                                placeholder="Motivo de tu consulta"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="mensaje"
+                                >Mensaje:</label
+                            >
+                            <textarea
+                                class="form-input"
+                                id="mensaje"
+                                name="mensaje"
+                                rows="5"
+                                placeholder="Escribe tu mensaje..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button class="form-button" type="submit">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer class="piePagina">
+            <p>Proyecto desarrollado por: Grupo Número 8</p>
+            <p>Correo de soporte: soporte@ficticio.com</p>
+            <p>&copy; 2026 Nombre del Sitio. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

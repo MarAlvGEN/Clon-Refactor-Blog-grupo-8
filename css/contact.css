@@ -34,17 +34,17 @@ body {
 }
 
 .input-custom {
-    border: 2px solid #1a1a1a !important;
-    border-radius: 8px !important;
-    background-color: #ffffff !important;
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    background-color: #ffffff;
     font-size: 1rem;
-    color: #1a1a1a !important;
+    color: #1a1a1a;
     padding: 0.75rem 1rem;
 }
 
 .input-custom:focus {
-    box-shadow: 4px 4px 0 #1a1a1a !important;
-    border-color: #1a1a1a !important;
+    box-shadow: 4px 4px 0 #1a1a1a;
+    border-color: #1a1a1a;
     outline: none;
 }
 

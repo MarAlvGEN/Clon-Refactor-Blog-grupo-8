@@ -51,7 +51,7 @@ body {
 .btn-custom {
     width: 100%;
     padding: 0.9rem;
-    background: #c6282a;
+    background: #ffc107;
     color: #1a1a1a;
     font-weight: 800;
     text-transform: uppercase;
@@ -64,7 +64,7 @@ body {
 }
 
 .btn-custom:hover {
-    background: #c6282a;
+    background: #ffc107;
     box-shadow: 6px 6px 0 #1a1a1a;
     transform: translate(-2px, -2px);
 }

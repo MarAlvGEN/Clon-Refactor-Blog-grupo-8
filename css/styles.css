@@ -10,27 +10,10 @@ body {
     background: #f8f8f8;
     color: #333;
 }
+
 #tituloPag {
     text-align: center;
     margin: 10px;
-}
-
-header {
-    background: #c62828;
-    color: white;
-    padding: 20px 0;
-
-    position: sticky;
-    top: 0;
-}
-
-.navbar {
-    width: 90%;
-    margin: auto;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
@@ -186,6 +169,10 @@ header {
     transition: 0.3s;
 }
 
+.navbar {
+    background-color: #c62828;
+}
+
 .btnEnviar:hover {
     background: #ffd600;
 
@@ -236,7 +223,7 @@ main {
     margin: 30px auto;
 }
 
-main section {
+.index-secction {
     background: white;
     margin-bottom: 30px;
     padding: 20px;
@@ -358,14 +345,6 @@ main section img {
     background-color: #f9f9f9;
 }
 
-.nav-container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .menu {
     display: flex;
     gap: 20px;
@@ -375,28 +354,6 @@ main section img {
     text-decoration: none;
     color: #333;
     font-weight: 500;
-}
-
-.contact-header {
-    text-align: center;
-    margin-top: 15px;
-}
-
-.contact-container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 30px auto;
-    display: flex;
-    gap: 30px;
-}
-
-.contac-info {
-    flex: 1;
-    background: white;
-    padding: 30px;
-    border-left: 8px solid #ffd600;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .info-title {
@@ -415,66 +372,13 @@ main section img {
     list-style: none;
 }
 
-.contact-formulario {
-    flex: 1;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.form-title {
-    color: #c62828;
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-.form-label {
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-.form-input {
-    padding: 12px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    font-size: 16px;
-    font-family: inherit;
-}
-
-.form-button {
-    background: #c62828;
-    color: white;
-    padding: 15px 35px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s;
-    width: 100%;
-}
-
-.form-button:hover {
-    background: #ffd600;
-    color: #c62828;
-}
-
-
-footer{
+footer {
     background: #212121;
     color: white;
     text-align: center;
-    padding: 30px 20px;
-    margin-top: 50px;
     position: relative;
     width: 100%;
-    margin: 8px 0;
+    height: 100%;
 }
 
 /* FIN - ESTILOS DEL CONTACTO.HTML */

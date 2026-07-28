@@ -465,37 +465,16 @@ main section img {
     color: #c62828;
 }
 
-.piePagina {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 5%;
-    /*text-align: center;*/
-    color: #000000;
-    background-color: #ffd166;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
 
-footer,
-.footer,
-.piePagina {
+footer{
     background: #212121;
     color: white;
     text-align: center;
     padding: 30px 20px;
     margin-top: 50px;
-
     position: relative;
     width: 100%;
-}
-
-footer p,
-.footer p,
-.piePagina p {
     margin: 8px 0;
 }
+
 /* FIN - ESTILOS DEL CONTACTO.HTML */
